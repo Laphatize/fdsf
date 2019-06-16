@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+
+<head>	
+	<title>Pranav's Text Adventure</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+
+<!--
+
+__________                                  /\     
+\______   \____________    ____ _____ ___  _)/_____
+ |     ___/\_  __ \__  \  /    \\__  \\  \/ /  ___/
+ |    |     |  | \// __ \|   |  \/ __ \\   /\___ \ 
+ |____|     |__|  (____  /___|  (____  /\_//____  >
+                       \/     \/     \/         \/ 
+__________________________  ______________
+\__    ___/\_   _____/\   \/  /\__    ___/
+  |    |    |    __)_  \     /   |    |   
+  |    |    |        \ /     \   |    |   
+  |____|   /_______  //___/\  \  |____|   
+                   \/       \_/         
+   _____  ____________   _______________ _______   
+  /  _  \ \______ \   \ /   /\_   _____/ \      \  
+ /  /_\  \ |    |  \   Y   /  |    __)_  /   |   \ 	___
+/    |    \|    `   \     /   |        \/    |    \
+\____|__  /_______  /\___/   /_______  /\____|__  /
+        \/        \/                 \/         \/ 
+
+_______________ ________________________
+\__    ___/    |   \______   \_   _____/
+  |    |  |    |   /|       _/|    __)_ 
+  |    |  |    |  / |    |   \|        \
+  |____|  |______/  |____|_  /_______  /
+                           \/        \/ 
+
+--->
+
+<body background="https://harmonyhousetheatre.com/wp-content/uploads/2013/04/warm-paper-a-backgrounds.jpg" style="text-align:center;">
+<div style="margin-top:15%;border-style: solid;border-width: 5px;margin-left:20%;margin-right:20%;">
+	<h1 style="font-family: 'Dancing Script', cursive;"> Pranav's Text Adventure </h1>
+ 
+ <!--
+  <img style="margin-top:-20%;margin-bottom:-6%;margin-right:-5%;"title="This is Arca."
+  width="100"  src="./src/assets/arca.png">
+-->
+  
+
+  <strong>Dialouge:</strong>
+  <p3 id="talk">nothing</p3>
+  <br>
+  <br>
+  <strong>Commands:</strong>
+  <p3 id="commands">okay, who is [person]</p3>
+
+
+  <br>
+  <br>
+  <input id="commandEntered" placeholder="command"> <button onclick="command();"> Submit </button>
+  <br>
+  <br>
+
+
+
+
+
+</div>
+<p> &copy Pranav Ramesh 2019 </p>
+
+<style>
+
+	.crosshair {cursor: crosshair;}
+.x:hover { 
+ color: red;
+}
+
+.x{
+	color: black;
+}
+
+
+	</style>
+      <script src="./src/store.js"></script>
+      <script src="./src/handler.js"></script>
+      <script src="./src/game.js"></script>
+      <script src="./src/checkDeath.js"></script>
+  </body>
